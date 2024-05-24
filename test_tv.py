@@ -11,9 +11,9 @@ def test_tv():
     tv2 = TV(channel=3, volume=2, is_on=True)
 
     # Print the channel and volume level of tv1
-    print("\033[92mTv 1's channel is ", {tv1.get_channel()}, " and volume level is ", {tv1.get_volume()}, "\033[0m")
+    print("\033[92mTv 1's channel is ", tv1.get_channel(), " and volume level is ", tv1.get_volume(), "\033[0m")
     # Print the channel and volume level of tv2
-    print("\033[92mTv 2's channel is ", {tv2.get_channel()}, " and volume level is ", {tv2.get_volume()}, "\033[0m")
+    print("\033[92mTv 2's channel is ", tv2.get_channel(), " and volume level is ", tv2.get_volume(), "\033[0m")
 
 
 # Run the tests if this script is executed directly
