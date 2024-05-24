@@ -15,5 +15,8 @@ def test_tv():
     # Print the channel and volume level of tv2
     print("\033[92mTv 2's channel is ", {tv2.get_channel()}, " and volume level is ", {tv2.get_volume()}, "\033[0m")
 
+
 # Run the tests if this script is executed directly
 intro = ' Test Tv Program'.center(50, '-')
+print(f"\033[94m {intro} \033[0m")
+print()
