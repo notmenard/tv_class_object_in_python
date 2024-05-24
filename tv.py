@@ -53,4 +53,11 @@ class TV:
             self.volume += 1
         else:
             print("Maximum volume reached.")
+
     # Decrease the volume by 1
+    def volume_down(self):
+        if self.volume > 0:
+            self.volume -= 1
+        else:
+            print("Minimum volume reached.")
+            
