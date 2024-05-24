@@ -40,6 +40,12 @@ class TV:
         else:
             self.channel = min(self.channels)
 
-# Decrease the channel by 1
+    # Decrease the channel by 1
+    def channel_down(self):
+        if self.channel > min(self.channels):
+            self.channel -= 1
+        else:
+            self.channel = max(self.channels)
+    
 # Increase the volume by 1
 # Decrease the volume by 1
