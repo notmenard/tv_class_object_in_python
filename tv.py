@@ -25,7 +25,10 @@ class TV:
         if 0 <= volume <= 10:
             self.volume = volume
 
-# Get the current channel of the TV
+    # Get the current channel of the TV
+    def get_channel(self):
+        return self.channel
+
 # Get the current volume of the TV
 # Increase the channel by 1
 # Decrease the channel by 1
