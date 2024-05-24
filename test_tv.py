@@ -3,6 +3,8 @@ from tv import TV
 
 
 # Define a function to test the TV class
+def test_tv():
+
 # Create a TV object tv1
 # Create a TV object tv2
 # Print the channel and volume level of tv1
