@@ -7,7 +7,10 @@ class TV:
         self.is_on = is_on
         self.channels = list(range(1, 31))
 
-# Turn on the TV
+    # Turn on the TV
+    def turn_on(self):
+        self.is_on = True
+
 # Turn off the TV
 # Set the channel of the TV
 # Set the volume of the TV
