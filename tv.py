@@ -29,7 +29,10 @@ class TV:
     def get_channel(self):
         return self.channel
 
-# Get the current volume of the TV
+    # Get the current volume of the TV
+    def get_volume(self):
+        return self.volume
+
 # Increase the channel by 1
 # Decrease the channel by 1
 # Increase the volume by 1
