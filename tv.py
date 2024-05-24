@@ -5,7 +5,7 @@ class TV:
         self.channel = channel
         self.volume = volume
         self.is_on = is_on
-        self.channels = list(range(1, 31))
+        self.channels = list(range(1, 120))
 
     # Turn on the TV
     def turn_on(self):
@@ -22,7 +22,7 @@ class TV:
 
     # Set the volume of the TV
     def set_volume(self, volume):
-        if 0 <= volume <= 10:
+        if 0 <= volume <= 7:
             self.volume = volume
 
     # Get the current channel of the TV
@@ -33,7 +33,13 @@ class TV:
     def get_volume(self):
         return self.volume
 
-# Increase the channel by 1
+    # Increase the channel by 1
+    def channel_up(self):
+        if self.channel < max(self.channels):
+            self.channel += 1
+        else:
+            self.channel = min(self.channels)
+
 # Decrease the channel by 1
 # Increase the volume by 1
 # Decrease the volume by 1
