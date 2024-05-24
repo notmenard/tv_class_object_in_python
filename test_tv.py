@@ -9,7 +9,7 @@ def test_tv():
     tv1 = TV(channel=30, volume=3, is_on=True)
     # Create a TV object tv2
     tv2 = TV(channel=3, volume=2, is_on=True)
-
+ 
     # Print the channel and volume level of tv1
     print("\033[92mTv 1's channel is ", tv1.get_channel(), " and volume level is ", tv1.get_volume(), "\033[0m")
     # Print the channel and volume level of tv2
@@ -26,4 +26,3 @@ test_tv()
 print()
 outro = " Test Ended ".center(50, '-')
 print(f"\033[94m {outro} \033[0m")
- 
