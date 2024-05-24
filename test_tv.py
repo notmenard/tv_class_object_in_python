@@ -5,8 +5,9 @@ from tv import TV
 # Define a function to test the TV class
 def test_tv():
 
-# Create a TV object tv1
-# Create a TV object tv2
+    # Create a TV object tv1
+    tv1 = TV(channel=30, volume=3, is_on=True)
+    # Create a TV object tv2
 # Print the channel and volume level of tv1
 # Print the channel and volume level of tv2
 # Run the tests if this script is executed directly
