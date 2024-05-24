@@ -1,6 +1,7 @@
 # Class representing the television
 class TV:
     # Initialize the TV object with default values for channel, volume, and is_on
+    def __init__(self, channel=1, volume=1, is_on=False):
 # Turn on the TV
 # Turn off the TV
 # Set the channel of the TV
