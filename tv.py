@@ -11,7 +11,10 @@ class TV:
     def turn_on(self):
         self.is_on = True
 
-# Turn off the TV
+    # Turn off the TV
+    def turn_off(self):
+        self.is_on = False
+        
 # Set the channel of the TV
 # Set the volume of the TV
 # Get the current channel of the TV
