@@ -46,6 +46,11 @@ class TV:
             self.channel -= 1
         else:
             self.channel = max(self.channels)
-    
-# Increase the volume by 1
-# Decrease the volume by 1
+
+    # Increase the volume by 1
+    def volume_up(self):
+        if self.volume < 7:
+            self.volume += 1
+        else:
+            print("Maximum volume reached.")
+    # Decrease the volume by 1
