@@ -20,3 +20,5 @@ def test_tv():
 intro = ' Test Tv Program'.center(50, '-')
 print(f"\033[94m {intro} \033[0m")
 print()
+
+test_tv()
