@@ -1,4 +1,7 @@
 # Import the TV class from the TV module
+from tv import TV
+
+
 # Define a function to test the TV class
 # Create a TV object tv1
 # Create a TV object tv2
