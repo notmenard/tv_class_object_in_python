@@ -1,5 +1,6 @@
 # Class representing the television
-# Initialize the TV object with default values for channel, volume, and is_on
+class TV:
+    # Initialize the TV object with default values for channel, volume, and is_on
 # Turn on the TV
 # Turn off the TV
 # Set the channel of the TV
