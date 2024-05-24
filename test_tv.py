@@ -26,3 +26,4 @@ test_tv()
 print()
 outro = " Test Ended ".center(50, '-')
 print(f"\033[94m {outro} \033[0m")
+ 
